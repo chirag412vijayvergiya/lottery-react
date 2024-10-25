@@ -1,8 +1,7 @@
 // Purpose: To interact with the deployed contract on the Rinkeby network.
 // Create the instance of the contract using the address and ABI of the deployed contract.
 import web3 from "./web3";
-require("dotenv").config();
-const address = process.env.DEPLOY_ADDRESS;
+const address = process.env.REACT_APP_DEPLOY_ADDRESS;
 
 const abi = [
   {
